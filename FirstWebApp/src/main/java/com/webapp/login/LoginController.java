@@ -1,18 +1,21 @@
-package com.webapp.springmvc;
+package com.webapp.login;
 
-import com.webapp.jee.LoginService;
-import com.webapp.jee.LoginServlet;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class LoginController {
 
-    LoginService service = new LoginService();
+//    without dependency injection
+//    LoginService service = new LoginService();
+
+//    with dependency injection
+    @Autowired
+    LoginService service;
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
 //    @ResponseBody
