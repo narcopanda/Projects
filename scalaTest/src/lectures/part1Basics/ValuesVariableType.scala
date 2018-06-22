@@ -10,8 +10,8 @@ object ValuesVariableType extends App {
   println(x)
 
 //  only need a ; if you are writing multiple things on one line but its bad practice
-  val astr: String = "hello"
-  val astr2 = "goodbye"
+  val astring: String = "hello"
+  val astring2 = "goodbye"
 
   val bool: Boolean = false
   val aChar: Char = 'a'
