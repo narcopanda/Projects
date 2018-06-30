@@ -26,7 +26,7 @@ trait MyTransformer[-A,B]{
   def transform(origin:A):B
 }
 
-object Empty extends MyList{
+case object Empty extends MyList{
   override def head: Nothing = throw new NoSuchElementException
 
   override def tail: Nothing = throw new NoSuchElementException
@@ -46,7 +46,7 @@ object Empty extends MyList{
   override def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
 }
 
-class Cons[+A](h:A, t:MyList[A]) extends MyList[A] {
+case class Cons[+A](h:A, t:MyList[A]) extends MyList[A] {
   override def head: A = h
 
   override def tail: MyList[A] = t
@@ -103,6 +103,7 @@ class Cons[+A](h:A, t:MyList[A]) extends MyList[A] {
 
 object ListTest extends App{
   val listOfInts:MyList[Int] = new Cons(1,new Cons(2,new Cons(3, Empty)))
+  val cloneListOfInts:MyList[Int] = new Cons(1,new Cons(2,new Cons(3, Empty)))
   val anotherListOfInts:MyList[Int] = new Cons(1,new Cons(4,new Cons(5, Empty)))
   val listOfStrings: MyList[String] = new Cons[String]("Hello", new Cons[String]("Scala", Empty))
   println(listOfInts.toString)
@@ -120,5 +121,7 @@ object ListTest extends App{
   println(listOfInts.flatMap(new MyTransformer[Int, MyList[Int]] {
     override def transform(origin: Int): MyList[Int] = new Cons (origin, new Cons(origin + 1, Empty))
   }).toString)
+
+  println(cloneListOfInts == listOfInts) // true because of the use of case
 }
 
