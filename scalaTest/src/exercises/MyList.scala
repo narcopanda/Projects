@@ -16,6 +16,12 @@ abstract class MyList[+A] {
 
   def ++[B >: A](list: MyList[B]):MyList[B]//concatenation
 
+  //  hofs
+  def forEach(f: A => Unit):Unit
+  def sort(compare: (A, A) => Int): MyList[A]
+  def zipwith[B, C](list: MyList[B], zip:(A, B) => C): MyList[C]
+  def fold[B](start:B)(operator: (B, A) => B): B
+
 }
 
 trait MyPredicate[-T]{
@@ -44,6 +50,16 @@ case object Empty extends MyList{
   override def filter(myPredicate: MyPredicate[Nothing]): MyList[Nothing] = Empty
 
   override def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
+
+//  hofs
+  def forEach(f: Nothing => Unit):Unit = ()
+  def sort(compare: (Nothing, Nothing) => Int) = Empty
+
+  def zipwith[B, C](list: MyList[B], zip: (Nothing, B) => C): MyList[C] =
+    if(!list.isEmpty()) throw new RuntimeException("lists does not have the same length")
+    else Empty
+
+  def fold[B](start: B)(operator: (B, Nothing) => B): B = start
 }
 
 case class Cons[+A](h:A, t:MyList[A]) extends MyList[A] {
@@ -99,6 +115,36 @@ case class Cons[+A](h:A, t:MyList[A]) extends MyList[A] {
 
    */
   override def ++[B >: A](list: MyList[B]): MyList[B] = new Cons(h, t ++ list)
+
+   def forEach(f: A => Unit): Unit = {
+     f(h)
+     t.forEach(f)
+   }
+
+  override def sort(compare: (A, A) => Int): MyList[A] = {
+    def insert(a: A, value: MyList[A]): MyList[A] =
+      if (value.isEmpty()) new Cons(a, Empty)
+      else if (compare(a, value.head) <= 0) new Cons(a, value)
+      else new Cons(value.head, insert(a, value.tail))
+
+    val sortedTail = t.sort(compare)
+    insert(h, sortedTail)
+  }
+
+  def zipwith[B, C](list: MyList[B], zip: (A, B) => C): MyList[C] =
+    if(!list.isEmpty()) throw new RuntimeException("lists does not have the same length")
+    else new Cons(zip(h, list.head),t.zipwith(list.tail, zip))
+
+/*
+  [1,2,3].fold(0)(+) =
+  = [2,3].fold(1)(+) =
+  = [3].fold(3)(+) =
+  = [].fold(6)(+)
+  =6
+ */
+  def fold[B](start: B)(operator: (B, A) => B): B = {
+    t.fold(operator(start, h))(operator)
+  }
 }
 
 object ListTest extends App{
@@ -109,19 +155,28 @@ object ListTest extends App{
   println(listOfInts.toString)
   println(listOfStrings.toString)
 
-  println(listOfInts.map(new MyTransformer[Int, Int] {
-    override def transform(origin: Int): Int = origin * 2
-  }).toString)
+//  println(listOfInts.map(new MyTransformer[Int, Int] {
+//    override def transform(origin: Int): Int = origin * 2
+//  }).toString)
 
-  println(listOfInts.filter(new MyPredicate[Int] {
-    override def condition(testCond: Int): Boolean = testCond % 2 ==0
-  }).toString)
+//  println(listOfInts.map(elem => elem * 2).toString)
+  println(listOfInts.map(_ * 2).toString)
+
+//  println(listOfInts.filter(new MyPredicate[Int] {
+//    override def condition(testCond: Int): Boolean = testCond % 2 ==0
+//  }).toString)
+
+//  println(listOfInts.filter(testCond => testCond % 2 == 0).toString)
+  println(listOfInts.filter(_ % 2 == 0).toString)
 
   println((listOfInts ++ anotherListOfInts).toString)
-  println(listOfInts.flatMap(new MyTransformer[Int, MyList[Int]] {
-    override def transform(origin: Int): MyList[Int] = new Cons (origin, new Cons(origin + 1, Empty))
-  }).toString)
+
+//  println(listOfInts.flatMap(new MyTransformer[Int, MyList[Int]] {
+//    override def transform(origin: Int): MyList[Int] = new Cons (origin, new Cons(origin + 1, Empty))
+//  }).toString)
+//  println(listOfInts.flatMap(elem => new Cons (elem, new Cons(elem + 1, Empty))).toString)
 
   println(cloneListOfInts == listOfInts) // true because of the use of case
+
 }
 
