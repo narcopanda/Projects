@@ -1,0 +1,14 @@
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\bin\Debug\DelegateExercise.exe.config
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\bin\Debug\DelegateExercise.exe
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\bin\Debug\DelegateExercise.pdb
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.csprojResolveAssemblyReference.cache
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.csproj.CoreCompileInputs.cache
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.exe
+E:\C# Course\03-11-2017\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.pdb
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\bin\Debug\DelegateExercise.exe.config
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\bin\Debug\DelegateExercise.exe
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\bin\Debug\DelegateExercise.pdb
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.csprojResolveAssemblyReference.cache
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.csproj.CoreCompileInputs.cache
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.exe
+C:\Users\Ahmad\Desktop\Projects\Chapter 08\DelegateExercise\DelegateExercise\obj\Debug\DelegateExercise.pdb
