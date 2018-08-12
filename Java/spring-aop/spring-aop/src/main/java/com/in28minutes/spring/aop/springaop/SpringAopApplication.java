@@ -30,7 +30,6 @@ public class SpringAopApplication implements CommandLineRunner{
 //	use commandLineRunner to do stuff 
 	@Override
 	public void run(String... args) throws Exception {
-		// TODO Auto-generated method stub
 		log.info(business1.calculateSomething());
 		log.info(business2.calculateSomething());
 	}

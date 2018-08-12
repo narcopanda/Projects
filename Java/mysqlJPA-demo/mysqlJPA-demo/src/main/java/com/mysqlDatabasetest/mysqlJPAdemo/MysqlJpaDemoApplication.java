@@ -23,8 +23,7 @@ public class MysqlJpaDemoApplication implements CommandLineRunner{
 	}
 
 	@Override
-	public void run(String... args) throws Exception {
-		// TODO Auto-generated method stub
+	public void run(String... args) throws Exception {	
 //		log.info("insetering new person -> {}", person.save(new Person("Pat", 12345)));
 		log.info("All the people in the book -> {}", person.findAll());
 	}
