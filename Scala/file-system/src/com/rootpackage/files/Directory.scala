@@ -3,6 +3,8 @@ package com.rootpackage.files
 import com.rootpackage.filesystem.FileSystemException
 
 import scala.annotation.tailrec
+import list
+
 
 class Directory( override val parentPath:String, override val name:String, val con: List[DirEntry])
   extends DirEntry(parentPath, name) {

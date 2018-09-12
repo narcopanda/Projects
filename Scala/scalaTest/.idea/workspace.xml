@@ -12,29 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TuplesAndMaps.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/TuplesAndMaps.scala">
+      <file leaf-file-name="Recursion.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Recursion.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Options.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/Options.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatternMatching.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lectures/part4PatternMatching/PatternMatching.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="396">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="e#30#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +50,6 @@
         <option value="$PROJECT_DIR$/src/lectures/part1Basics/ValuesVariableType.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1Basics/Expressions.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1Basics/Functions.scala" />
-        <option value="$PROJECT_DIR$/src/lectures/part1Basics/Recursion.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1Basics/CBNvsCBv.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1Basics/DefaultArgs.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part1Basics/StringOps.scala" />
@@ -95,6 +79,9 @@
         <option value="$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/TuplesAndMaps.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/Options.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part4PatternMatching/PatternMatching.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part4PatternMatching/AdvancedPatternMatching.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/lectures/Advanced/MySet.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part1Basics/Recursion.scala" />
       </list>
     </option>
   </component>
@@ -108,71 +95,27 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+    <option name="x" value="6" />
+    <option name="y" value="9" />
+    <option name="width" value="949" />
+    <option name="height" value="1065" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lectures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="part3FunctionalPrograming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scalaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scalaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="playground" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../file-system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,14 +129,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternMatching">
-    <configuration name="MaybeTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.MaybeTest" />
+  <component name="RunManager" selected="Application.Recursion">
+    <configuration name="AdvancedPatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part4PatternMatching.AdvancedPatternMatching" />
       <module name="scalaTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="lectures.part4PatternMatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,13 +163,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3FunctionalPrograming.Sequences" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1Basics.Recursion" />
       <module name="scalaTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part3FunctionalPrograming.*" />
+          <option name="PATTERN" value="lectures.part1Basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +227,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MaybeTest" />
-      <item itemvalue="Application.Sequences" />
       <item itemvalue="Application.TuplesAndMaps" />
       <item itemvalue="Application.Options" />
       <item itemvalue="Application.PatternMatching" />
+      <item itemvalue="Application.AdvancedPatternMatching" />
+      <item itemvalue="Application.Recursion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.AdvancedPatternMatching" />
         <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.Options" />
         <item itemvalue="Application.TuplesAndMaps" />
-        <item itemvalue="Application.Sequences" />
-        <item itemvalue="Application.MaybeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,18 +264,27 @@
       <workItem from="1530026500161" duration="12151000" />
       <workItem from="1530382887888" duration="10923000" />
       <workItem from="1530464532022" duration="21591000" />
+      <workItem from="1534467391415" duration="352000" />
+      <workItem from="1534714197947" duration="869000" />
+      <workItem from="1536114496097" duration="164000" />
+      <workItem from="1536114771385" duration="4302000" />
+      <workItem from="1536154715828" duration="5435000" />
+      <workItem from="1536165626073" duration="1568000" />
+      <workItem from="1536169398394" duration="5298000" />
+      <workItem from="1536188407892" duration="3151000" />
+      <workItem from="1536237829162" duration="781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87432000" />
+    <option name="totallyTimeSpent" value="109352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="6" y="9" width="949" height="1065" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32939914" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -340,11 +292,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719836" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24960877" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5026399" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,13 +304,14 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32883817" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,59 +330,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/ValuesVariableType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Expressions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Functions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Recursion.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/ValuesVariableType.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Expressions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Functions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/ValuesVariableType.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -512,13 +419,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/package.scala" />
-    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Recursion.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/CBNvsCBv.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -701,37 +601,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="67" column="3" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
-          <folding>
-            <element signature="e#44#117#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/scala/lib/scala-library.jar!/scala/collection/AbstractSeq.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files (x86)/scala/lib/scala-library.jar!/scala/collection/AbstractSeq.class" />
     <entry file="file://$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/TuplesAndMaps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/Options.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lectures/part4PatternMatching/PatternMatching.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part4PatternMatching/AdvancedPatternMatching.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/Function1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/lectures/Advanced/MySet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/lectures/Advanced/AdvancedPatternMatching.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3FunctionalPrograming/Options.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/Function0.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/runtime/AbstractFunction0.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part1Basics/Recursion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#30#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
