@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Filesystem.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Filesystem.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/filesystem/Filesystem.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#37#76#0" expanded="true" />
               </folding>
@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Command.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/commands/Command.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
@@ -39,7 +39,7 @@
       <file leaf-file-name="Cat.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/commands/Cat.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="252">
               <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="Directory.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/files/Directory.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="414">
               <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#31#84#0" expanded="true" />
@@ -60,7 +60,7 @@
       <file leaf-file-name="File.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/files/File.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="90">
               <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
             </state>
           </provider>
@@ -69,7 +69,7 @@
       <file leaf-file-name="DirEntry.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/files/DirEntry.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="144">
               <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
@@ -78,7 +78,7 @@
       <file leaf-file-name="State.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rootpackage/filesystem/State.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="324">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
@@ -131,16 +131,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="2" />
-    <option name="width" value="1922" />
-    <option name="height" value="1079" />
+    <option name="x" value="3205" />
+    <option name="y" value="9" />
+    <option name="width" value="1269" />
+    <option name="height" value="1065" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,9 +185,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,14 +286,16 @@
       <workItem from="1530315923142" duration="16208000" />
       <workItem from="1530378061707" duration="1416000" />
       <workItem from="1536116854422" duration="27000" />
+      <workItem from="1538362959515" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56831000" />
+    <option name="totallyTimeSpent" value="56911000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="2" width="1922" height="1079" extended-state="0" />
+    <frame x="3205" y="9" width="1269" height="1065" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -308,7 +310,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27071825" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -628,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rootpackage/filesystem/State.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="324">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
@@ -649,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rootpackage/files/Directory.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="414">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#31#84#0" expanded="true" />
@@ -666,32 +668,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rootpackage/files/DirEntry.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="144">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rootpackage/files/File.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="90">
           <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rootpackage/commands/Cat.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="252">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rootpackage/filesystem/Filesystem.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#37#76#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,6 +693,16 @@
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="e#34#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rootpackage/filesystem/Filesystem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#37#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
